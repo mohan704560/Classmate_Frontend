@@ -1,0 +1,59 @@
+.menuHidden {
+    display: none;
+  }
+  
+  .menuShow {
+    display: flex;
+  }
+  
+  .navOriginalHeight {
+    height: 48px;
+  }
+  
+  .navExpandedHeight {
+    height: fit-content;
+  }
+  
+  .subHeadingHidden {
+    display: none;
+  }
+  
+  .headingContainer:hover ul {
+    display: block !important;
+  }
+  
+  .headingContainer:hover .triangle {
+    border-top: 6px solid white;
+  }
+  
+  .headingContainer:hover > a {
+    color: white;
+  }
+  
+  /* .setting:hover + .triangle {
+    border-top: 6px solid white;
+  } */
+  
+  .settingContainer:hover > .triangle {
+    border-top: 6px solid white;
+  }
+  
+  .settingContainer:hover > .settingIcon {
+    color: white;
+  }
+  
+  .settingContainer:hover > .setting {
+    display: block;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid gray;
+    margin-left: 6px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
